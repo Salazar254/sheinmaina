@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Instagram, Youtube, Twitter } from "lucide-react";
+import { ArrowRight, Instagram, Youtube, Twitter, Linkedin } from "lucide-react";
 
 const Hero = () => {
     return (
@@ -46,9 +46,12 @@ const Hero = () => {
                             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </Button>
                         <div className="flex items-center gap-4 px-2">
+                            <a href="https://ke.linkedin.com/in/shein-maina-116932297" className="p-3 rounded-full bg-white border border-gray-100 text-gray-400 hover:text-blue-700 hover:shadow-md transition-all"><Linkedin size={20} /></a>
                             <a href="https://www.instagram.com/_sheinmaina" className="p-3 rounded-full bg-white border border-gray-100 text-gray-400 hover:text-pink-500 hover:shadow-md transition-all"><Instagram size={20} /></a>
                             <a href="https://www.youtube.com/@SHEINMAINA" className="p-3 rounded-full bg-white border border-gray-100 text-gray-400 hover:text-red-500 hover:shadow-md transition-all"><Youtube size={20} /></a>
-                            <a href="#" className="p-3 rounded-full bg-white border border-gray-100 text-gray-400 hover:text-blue-400 hover:shadow-md transition-all"><Twitter size={20} /></a>
+                            <a href="https://www.tiktok.com/@sheinmaina" className="p-3 rounded-full bg-white border border-gray-100 text-gray-400 hover:text-black hover:shadow-md transition-all">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-tiktok"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" /></svg>
+                            </a>
                         </div>
                     </div>
                 </motion.div>

@@ -59,9 +59,12 @@ const Contact = () => {
                         </div>
 
                         <div className="flex gap-4 pt-6">
-                            <a href="https://www.youtube.com/@SHEINMAINA" target="_blank" className="p-4 rounded-2xl bg-white border border-gray-100 text-gray-400 hover:text-red-500 hover:shadow-lg transition-all"><Youtube size={24} /></a>
+                            <a href="https://ke.linkedin.com/in/shein-maina-116932297" target="_blank" className="p-4 rounded-2xl bg-white border border-gray-100 text-gray-400 hover:text-blue-700 hover:shadow-lg transition-all"><Linkedin size={24} /></a>
                             <a href="https://www.instagram.com/_sheinmaina" target="_blank" className="p-4 rounded-2xl bg-white border border-gray-100 text-gray-400 hover:text-pink-500 hover:shadow-lg transition-all"><Instagram size={24} /></a>
-                            <a href="https://www.tiktok.com/@sheinmaina" target="_blank" className="p-4 rounded-2xl bg-white border border-gray-100 text-gray-400 hover:text-black hover:shadow-lg transition-all"><Music size={24} /></a>
+                            <a href="https://www.youtube.com/@SHEINMAINA" target="_blank" className="p-4 rounded-2xl bg-white border border-gray-100 text-gray-400 hover:text-red-500 hover:shadow-lg transition-all"><Youtube size={24} /></a>
+                            <a href="https://www.tiktok.com/@sheinmaina" target="_blank" className="p-4 rounded-2xl bg-white border border-gray-100 text-gray-400 hover:text-black hover:shadow-lg transition-all">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-tiktok"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" /></svg>
+                            </a>
                         </div>
                     </motion.div>
 

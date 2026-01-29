@@ -1,12 +1,18 @@
 import { motion } from "framer-motion";
-import { Youtube, Instagram, Music, PinIcon } from "lucide-react";
+import { Youtube, Instagram, Linkedin } from "lucide-react";
 
 const ContentCreation = () => {
     const categories = [
-        { name: "YouTube", icon: <Youtube />, handle: "@SHEINMAINA", color: "text-red-500", desc: "Vlogs, Day-in-the-life, EQ talks." },
+        { name: "LinkedIn", icon: <Linkedin />, handle: "shein-maina", color: "text-blue-700", desc: "Professional journey, advocacy, and network." },
         { name: "Instagram", icon: <Instagram />, handle: "@_sheinmaina", color: "text-pink-500", desc: "Lifestyle, Fashion, & Daily moments." },
-        { name: "TikTok", icon: <Music />, handle: "@sheinmaina", color: "text-blue-500", desc: "Quick recaps & creative snippets." },
-        { name: "Pinterest", icon: <PinIcon />, handle: "@officialsheinmaina", color: "text-red-600", desc: "Boards of inspiration & aesthetics." }
+        { name: "YouTube", icon: <Youtube />, handle: "@SHEINMAINA", color: "text-red-500", desc: "Vlogs, Day-in-the-life, EQ talks." },
+        {
+            name: "TikTok",
+            icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-tiktok"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" /></svg>,
+            handle: "@sheinmaina",
+            color: "text-gray-900",
+            desc: "Quick recaps & creative snippets."
+        }
     ];
 
     return (
