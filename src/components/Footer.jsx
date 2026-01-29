@@ -1,13 +1,12 @@
 import { Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
-import Logo from "@/components/Logo";
 
 const Footer = () => {
     return (
         <footer className="bg-black/80 backdrop-blur-md border-t border-white/10 py-12 text-white">
             <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="text-center md:text-left">
-                    <Logo light={true} />
-                    <p className="text-gray-400 text-sm mt-4">© {new Date().getFullYear()} All rights reserved.</p>
+                    <h3 className="text-2xl font-bold tracking-tighter">SHEIN<span className="text-purple-400">MAINA</span></h3>
+                    <p className="text-gray-400 text-sm mt-2">© {new Date().getFullYear()} All rights reserved.</p>
                 </div>
 
                 <div className="flex gap-6">

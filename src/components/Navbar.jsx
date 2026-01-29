@@ -1,4 +1,7 @@
-import Logo from "@/components/Logo";
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -29,9 +32,10 @@ const Navbar = () => {
                 isScrolled ? "bg-white/70 backdrop-blur-md border-b border-pink-100 shadow-sm py-3" : "bg-transparent"
             )}
         >
-            <a href="#home" className="hover:opacity-80 transition-opacity">
-                <Logo />
-            </a>
+            <div className="text-2xl font-bold tracking-tighter text-gray-900 flex items-center gap-2">
+                <span className="text-pink-500 underline decoration-pink-200 decoration-4 underline-offset-4">SHEIN</span>
+                <span className="text-gray-400 font-light">MAINA</span>
+            </div>
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex gap-6 items-center">
