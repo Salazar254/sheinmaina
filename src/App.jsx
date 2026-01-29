@@ -5,7 +5,6 @@ import About from "@/sections/About";
 import Education from "@/sections/Education";
 import Experience from "@/sections/Experience";
 import Foundation from "@/sections/Foundation";
-import Pageants from "@/sections/Pageants";
 import ContentCreation from "@/sections/ContentCreation";
 import Contact from "@/sections/Contact";
 
@@ -20,7 +19,6 @@ function App() {
         <Education />
         <Experience />
         <Foundation />
-        <Pageants />
         <ContentCreation />
         <Contact />
       </main>
