@@ -54,6 +54,16 @@ const ContentCreation = () => {
                         </motion.div>
                     ))}
                 </div>
+
+                {/* Video Placeholder Grid */}
+                <div className="grid md:grid-cols-2 gap-8 mt-12">
+                    <div className="aspect-video rounded-[2.5rem] bg-pink-50 border border-pink-100 flex items-center justify-center text-pink-200 font-bold uppercase tracking-widest text-lg">
+                        YouTube Video Embed
+                    </div>
+                    <div className="aspect-video rounded-[2.5rem] bg-gray-50 border border-gray-100 flex items-center justify-center text-gray-300 font-bold uppercase tracking-widest text-lg">
+                        IG Reels Grid
+                    </div>
+                </div>
             </div>
         </section>
     );
