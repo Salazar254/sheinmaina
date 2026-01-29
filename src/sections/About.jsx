@@ -14,7 +14,7 @@ const About = () => {
                     >
                         <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden glass-panel border-pink-100 relative group shadow-2xl">
                             <img
-                                src="/shein_lifestyle_tennis_1769416083154.png"
+                                src="/images/lifestyle_tennis.jpeg"
                                 alt="Shein Maina Lifestyle"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             />

@@ -49,7 +49,7 @@ const Pageants = () => {
                             <div className="h-1/2 bg-pink-50 flex items-center justify-center relative group overflow-hidden">
                                 {index === 0 ? (
                                     <img
-                                        src="/shein_pageant_elegant_1769416067241.png"
+                                        src="/images/pageant_achievement.jpeg"
                                         alt="Pageant Achievement"
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                     />

@@ -9,7 +9,7 @@ const Foundation = () => {
                     <h2 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight">Shein Maina <span className="text-pink-500">Foundation</span></h2>
                     <div className="relative w-full h-64 md:h-96 rounded-[3rem] overflow-hidden shadow-2xl">
                         <img
-                            src="/shein_foundation_advocacy_1769416048947.png"
+                            src="/images/foundation_advocacy.jpeg"
                             alt="Advocacy and Empowerment"
                             className="w-full h-full object-cover"
                         />

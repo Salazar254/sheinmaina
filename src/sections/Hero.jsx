@@ -67,7 +67,7 @@ const Hero = () => {
                         <div className="absolute inset-0 bg-white rounded-[2rem] shadow-2xl overflow-hidden border-8 border-white p-2">
                             <div className="w-full h-full bg-gray-50 rounded-[1.5rem] flex items-center justify-center relative group overflow-hidden">
                                 <img
-                                    src="/shein_hero_portrait_1769416030620.png"
+                                    src="/images/hero_portrait.jpeg"
                                     alt="Shein Maina"
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
